@@ -62,10 +62,10 @@
       "Name": "standart",
       "Automatic startup": true,
       "Probability of a preset [0.0-100.0]": 100.0,
-      "Enable the helicopter": false,
+      "Enable the helicopter": true,
       "The number of Bradleys ahead the truck": 1,
-      "Number of Sedans ahead the truck": 1,
-      "Number of Sedans behind the truck": 1,
+      "Number of Sedans ahead the truck": 2,
+      "Number of Sedans behind the truck": 2,
       "The number of Bradleys behind the truck": 1,
       "Bradley preset": "bradley_1",
       "Sedan preset": "sedan_1",
@@ -110,7 +110,7 @@
       "Amount of Machine-gun burst shots": 10,
       "The time between shots of the main gun [sec.]": 10.0,
       "The time between shots of the main gun in a fire rate [sec.]": 0.25,
-      "Numbers of crates": 3,
+      "Numbers of crates": 4,
       "Location of all NPCs": [
         {
           "Position": "(3, 0, 3)",
@@ -210,7 +210,7 @@
         }
       ],
       "The crate can be opened if other vehicles are not destroyed": false,
-      "Time to unlock the crates [sec.]": 10.0,
+      "Time to unlock the crates [sec.]": 30.0,
       "Location of the locked crate": {
         "Position": "(0, 0.65, -2.35)",
         "Rotation": "(0, 180, 0)"
@@ -265,7 +265,7 @@
   ],
   "NPC Configurations": {
     "Name": "ConvoyNPC",
-    "Health": 200.0,
+    "Health": 300.0,
     "Roam Range": 5.0,
     "Chase Range": 110.0,
     "Attack Range Multiplier": 1.0,
